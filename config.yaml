@@ -1,0 +1,36 @@
+# EG-RAG configuration. Every experiment setting lives here so a run can be reproduced.
+seed: 42
+
+corpus: [D3, SYN1_staff_handbook]   # the two PDFs used in the study (see data/sources.csv)
+
+models:
+  # OpenRouter model identifiers. Check they exist with:  python -m egrag.llm --check
+  generators:
+    proprietary: openai/gpt-4.1-mini
+    open_weight: meta-llama/llama-3.3-70b-instruct
+  judge: google/gemini-2.5-flash        # different family from both generators
+  temperature: 0
+  max_tokens: 800
+
+local_models:                            # downloaded once from Hugging Face
+  embedder: sentence-transformers/all-MiniLM-L6-v2
+  reranker: cross-encoder/ms-marco-MiniLM-L-6-v2
+  nli: cross-encoder/nli-deberta-v3-small
+
+retrieval:
+  candidates: 20          # top-n from BM25 and from dense search before fusion
+  rrf_k: 60               # reciprocal rank fusion constant (Cormack et al., 2009)
+  top_k: 5                # paragraphs given to the LLM
+
+guardrails:               # fixed in advance (conventional values); nothing is tuned on the 10 questions
+  sufficiency_threshold: 0.0    # min re-ranker logit of the best paragraph
+  entail_threshold: 0.5         # NLI probability needed to call a claim grounded
+  contradict_threshold: 0.5     # NLI probability needed to call a claim contradicted
+  quote_match_min: 0.85         # fuzzy-match ratio for a quote to count as found
+
+paths:
+  raw: data/raw
+  synthetic: data/synthetic
+  questions: eval/questions.jsonl
+  cache: data/cache
+  results: results

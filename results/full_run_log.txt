@@ -1,0 +1,321 @@
+﻿wrote 1 files to C:\Users\ranga\OneDrive\Desktop\Thesis\Code\data\synthetic
+1/1 public document present; manifest written to C:\Users\ranga\OneDrive\Desktop\Thesis\Code\data\raw\manifest.csv
+10 questions: Counter({'single': 7, 'unanswerable': 2, 'conflict': 1})
+documents in corpus: ['D3', 'SYN1_staff_handbook']
+answerable questions with no gold quote found: 0
+not yet verified by the author: 0  (see results/question_check.csv)
+272 paragraphs (corpus 3bee8541651f), 10 questions
+python.exe : 
+At line:1 char:517
++ ... XITCODE -eq 0) { & $py run_all.py *> results\full_run_log.txt; & $py  ...
++                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 2152.06it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits 
+and faster downloads.
+
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 1518.94it/s]
+C:\Users\ranga\OneDrive\Desktop\Thesis\Code\.venv\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: 
+`torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+
+Loading weights:   0%|          | 0/106 [00:00<?, ?it/s]
+Loading weights:   8%|▊         | 8/106 [00:00<00:01, 72.95it/s]
+Loading weights:  16%|█▌        | 17/106 [00:00<00:01, 80.45it/s]
+Loading weights: 100%|██████████| 106/106 [00:00<00:00, 414.09it/s]
+
+            S1 proprietary: 1/10
+            S1 proprietary: 2/10
+            S1 proprietary: 3/10
+            S1 proprietary: 4/10
+            S1 proprietary: 5/10
+            S1 proprietary: 6/10
+            S1 proprietary: 7/10
+            S1 proprietary: 8/10
+            S1 proprietary: 9/10
+            S1 proprietary: 10/10  -> proprietary__S1.jsonl
+
+            S2 proprietary: 1/10
+            S2 proprietary: 2/10
+            S2 proprietary: 3/10
+            S2 proprietary: 4/10
+            S2 proprietary: 5/10
+            S2 proprietary: 6/10
+            S2 proprietary: 7/10
+            S2 proprietary: 8/10
+            S2 proprietary: 9/10
+            S2 proprietary: 10/10  -> proprietary__S2.jsonl
+
+            S3 proprietary: 1/10
+            S3 proprietary: 2/10
+            S3 proprietary: 3/10
+            S3 proprietary: 4/10
+            S3 proprietary: 5/10
+            S3 proprietary: 6/10
+            S3 proprietary: 7/10
+            S3 proprietary: 8/10
+            S3 proprietary: 9/10
+            S3 proprietary: 10/10  -> proprietary__S3.jsonl
+
+            S4 proprietary: 1/10
+            S4 proprietary: 2/10
+            S4 proprietary: 3/10
+            S4 proprietary: 4/10
+            S4 proprietary: 5/10
+            S4 proprietary: 6/10
+            S4 proprietary: 7/10
+            S4 proprietary: 8/10
+            S4 proprietary: 9/10
+            S4 proprietary: 10/10  -> proprietary__S4.jsonl
+
+            S5 proprietary: 1/10
+            S5 proprietary: 2/10
+            S5 proprietary: 3/10
+            S5 proprietary: 4/10
+            S5 proprietary: 5/10
+            S5 proprietary: 6/10
+            S5 proprietary: 7/10
+            S5 proprietary: 8/10
+            S5 proprietary: 9/10
+            S5 proprietary: 10/10  -> proprietary__S5.jsonl
+
+            S1 open_weight: 1/10
+            S1 open_weight: 2/10
+            S1 open_weight: 3/10
+            S1 open_weight: 4/10
+            S1 open_weight: 5/10
+            S1 open_weight: 6/10
+            S1 open_weight: 7/10
+            S1 open_weight: 8/10
+            S1 open_weight: 9/10
+            S1 open_weight: 10/10  -> open_weight__S1.jsonl
+
+            S2 open_weight: 1/10
+            S2 open_weight: 2/10
+            S2 open_weight: 3/10
+            S2 open_weight: 4/10
+            S2 open_weight: 5/10
+            S2 open_weight: 6/10
+            S2 open_weight: 7/10
+            S2 open_weight: 8/10
+            S2 open_weight: 9/10
+            S2 open_weight: 10/10  -> open_weight__S2.jsonl
+
+            S3 open_weight: 1/10
+            S3 open_weight: 2/10
+            S3 open_weight: 3/10
+            S3 open_weight: 4/10
+            S3 open_weight: 5/10
+            S3 open_weight: 6/10
+            S3 open_weight: 7/10
+            S3 open_weight: 8/10
+            S3 open_weight: 9/10
+            S3 open_weight: 10/10  -> open_weight__S3.jsonl
+
+            S4 open_weight: 1/10
+            S4 open_weight: 2/10
+            S4 open_weight: 3/10
+            S4 open_weight: 4/10
+            S4 open_weight: 5/10
+            S4 open_weight: 6/10
+            S4 open_weight: 7/10
+            S4 open_weight: 8/10
+            S4 open_weight: 9/10
+            S4 open_weight: 10/10  -> open_weight__S4.jsonl
+
+            S5 open_weight: 1/10
+            S5 open_weight: 2/10
+            S5 open_weight: 3/10
+            S5 open_weight: 4/10
+            S5 open_weight: 5/10
+            S5 open_weight: 6/10
+            S5 open_weight: 7/10
+            S5 open_weight: 8/10
+            S5 open_weight: 9/10
+            S5 open_weight: 10/10  -> open_weight__S5.jsonl
+272 paragraphs (corpus 3bee8541651f), 10 questions
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 11233.96it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits 
+and faster downloads.
+
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 1742.54it/s]
+C:\Users\ranga\OneDrive\Desktop\Thesis\Code\.venv\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: 
+`torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+
+Loading weights:   0%|          | 0/106 [00:00<?, ?it/s]
+Loading weights:  25%|██▌       | 27/106 [00:00<00:00, 227.02it/s]
+Loading weights: 100%|██████████| 106/106 [00:00<00:00, 504.34it/s]
+
+          S4v2 proprietary: 1/10
+          S4v2 proprietary: 2/10
+          S4v2 proprietary: 3/10
+          S4v2 proprietary: 4/10
+          S4v2 proprietary: 5/10
+          S4v2 proprietary: 6/10
+          S4v2 proprietary: 7/10
+          S4v2 proprietary: 8/10
+          S4v2 proprietary: 9/10
+          S4v2 proprietary: 10/10  -> proprietary__S4v2.jsonl
+
+          S5v2 proprietary: 1/10
+          S5v2 proprietary: 2/10
+          S5v2 proprietary: 3/10
+          S5v2 proprietary: 4/10
+          S5v2 proprietary: 5/10
+          S5v2 proprietary: 6/10
+          S5v2 proprietary: 7/10
+          S5v2 proprietary: 8/10
+          S5v2 proprietary: 9/10
+          S5v2 proprietary: 10/10  -> proprietary__S5v2.jsonl
+
+          S4v2 open_weight: 1/10
+          S4v2 open_weight: 2/10
+          S4v2 open_weight: 3/10
+          S4v2 open_weight: 4/10
+          S4v2 open_weight: 5/10
+          S4v2 open_weight: 6/10
+          S4v2 open_weight: 7/10
+          S4v2 open_weight: 8/10
+          S4v2 open_weight: 9/10
+          S4v2 open_weight: 10/10  -> open_weight__S4v2.jsonl
+
+          S5v2 open_weight: 1/10
+          S5v2 open_weight: 2/10
+          S5v2 open_weight: 3/10
+          S5v2 open_weight: 4/10
+          S5v2 open_weight: 5/10
+          S5v2 open_weight: 6/10
+          S5v2 open_weight: 7/10
+          S5v2 open_weight: 8/10
+          S5v2 open_weight: 9/10
+          S5v2 open_weight: 10/10  -> open_weight__S5v2.jsonl
+272 paragraphs (corpus 3bee8541651f), 10 questions
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 2172.91it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits 
+and faster downloads.
+
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 1890.86it/s]
+C:\Users\ranga\OneDrive\Desktop\Thesis\Code\.venv\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: 
+`torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+
+Loading weights:   0%|          | 0/106 [00:00<?, ?it/s]
+Loading weights:  24%|██▎       | 25/106 [00:00<00:00, 237.54it/s]
+Loading weights: 100%|██████████| 106/106 [00:00<00:00, 537.94it/s]
+
+   S5_no_quote proprietary: 1/10
+   S5_no_quote proprietary: 2/10
+   S5_no_quote proprietary: 3/10
+   S5_no_quote proprietary: 4/10
+   S5_no_quote proprietary: 5/10
+   S5_no_quote proprietary: 6/10
+   S5_no_quote proprietary: 7/10
+   S5_no_quote proprietary: 8/10
+   S5_no_quote proprietary: 9/10
+   S5_no_quote proprietary: 10/10  -> proprietary__S5_no_quote.jsonl
+
+S5_no_verifier proprietary: 1/10
+S5_no_verifier proprietary: 2/10
+S5_no_verifier proprietary: 3/10
+S5_no_verifier proprietary: 4/10
+S5_no_verifier proprietary: 5/10
+S5_no_verifier proprietary: 6/10
+S5_no_verifier proprietary: 7/10
+S5_no_verifier proprietary: 8/10
+S5_no_verifier proprietary: 9/10
+S5_no_verifier proprietary: 10/10  -> proprietary__S5_no_verifier.jsonl
+
+    S5_no_gate proprietary: 1/10
+    S5_no_gate proprietary: 2/10
+    S5_no_gate proprietary: 3/10
+    S5_no_gate proprietary: 4/10
+    S5_no_gate proprietary: 5/10
+    S5_no_gate proprietary: 6/10
+    S5_no_gate proprietary: 7/10
+    S5_no_gate proprietary: 8/10
+    S5_no_gate proprietary: 9/10
+    S5_no_gate proprietary: 10/10  -> proprietary__S5_no_gate.jsonl
+
+   S5_no_quote open_weight: 1/10
+   S5_no_quote open_weight: 2/10
+   S5_no_quote open_weight: 3/10
+   S5_no_quote open_weight: 4/10
+   S5_no_quote open_weight: 5/10
+   S5_no_quote open_weight: 6/10
+   S5_no_quote open_weight: 7/10
+   S5_no_quote open_weight: 8/10
+   S5_no_quote open_weight: 9/10
+   S5_no_quote open_weight: 10/10  -> open_weight__S5_no_quote.jsonl
+
+S5_no_verifier open_weight: 1/10
+S5_no_verifier open_weight: 2/10
+S5_no_verifier open_weight: 3/10
+S5_no_verifier open_weight: 4/10
+S5_no_verifier open_weight: 5/10
+S5_no_verifier open_weight: 6/10
+S5_no_verifier open_weight: 7/10
+S5_no_verifier open_weight: 8/10
+S5_no_verifier open_weight: 9/10
+S5_no_verifier open_weight: 10/10  -> open_weight__S5_no_verifier.jsonl
+
+    S5_no_gate open_weight: 1/10
+    S5_no_gate open_weight: 2/10
+    S5_no_gate open_weight: 3/10
+    S5_no_gate open_weight: 4/10
+    S5_no_gate open_weight: 5/10
+    S5_no_gate open_weight: 6/10
+    S5_no_gate open_weight: 7/10
+    S5_no_gate open_weight: 8/10
+    S5_no_gate open_weight: 9/10
+    S5_no_gate open_weight: 10/10  -> open_weight__S5_no_gate.jsonl
+  generator         system  questions  errors  accuracy  doc_hit  page_hit  para_hit  span_f1  status_correct  false_grounding  false_abstention  conflict_detected  latency_s  unsupported_rate
+open_weight             S1         10       0       0.4      NaN       NaN       NaN      NaN             NaN              NaN               NaN                NaN      0.006               NaN
+open_weight             S2         10       0       1.0      NaN       NaN       NaN      NaN             NaN              NaN               NaN                NaN      0.455               NaN
+open_weight             S3         10       0       1.0    1.000     1.000     1.000    0.562             1.0              0.0               0.0                0.0      0.449               0.0
+open_weight             S4         10       0       1.0    0.500     0.500     0.500    0.466             0.7              0.0               0.3                0.0      0.683               0.0
+open_weight           S4v2         10       0       1.0    0.875     0.875     0.875    0.813             0.9              0.0               0.1                1.0      0.578               0.0
+open_weight             S5         10       0       0.5    0.500     0.500     0.500    0.466             0.7              0.0               0.3                0.0      0.729               0.0
+open_weight     S5_no_gate         10       0       0.5    0.500     0.500     0.500    0.466             0.7              0.0               0.3                0.0      0.881               0.0
+open_weight    S5_no_quote         10       0       0.5    0.500     0.500     0.500    0.292             0.7              0.0               0.3                0.0      0.950               0.0
+open_weight S5_no_verifier         10       0       0.9    1.000     1.000     1.000    0.937             1.0              0.0               0.0                0.0      0.525               0.0
+open_weight           S5v2         10       0       0.8    0.875     0.875     0.875    0.813             0.9              0.0               0.1                1.0      0.936               0.0
+proprietary             S1         10       0       0.5      NaN       NaN       NaN      NaN             NaN              NaN               NaN                NaN      0.008               NaN
+proprietary             S2         10       0       0.9      NaN       NaN       NaN      NaN             NaN              NaN               NaN                NaN      0.450               NaN
+proprietary             S3         10       0       1.0    1.000     1.000     1.000    0.562             1.0              0.0               0.0                0.0      0.446               0.0
+proprietary             S4         10       0       1.0    0.375     0.375     0.375    0.321             0.6              0.0               0.4                0.0      0.752               0.0
+proprietary           S4v2         10       0       1.0    0.875     0.875     0.875    0.728             0.9              0.0               0.1                1.0      0.594               0.0
+proprietary             S5         10       0       0.5    0.375     0.375     0.375    0.321             0.6              0.0               0.4                0.0      0.733               0.0
+proprietary     S5_no_gate         10       0       0.5    0.375     0.375     0.375    0.321             0.6              0.0               0.4                0.0      0.813               0.0
+proprietary    S5_no_quote         10       0       0.5    0.375     0.375     0.375    0.218             0.6              0.0               0.4                0.0      0.735               0.0
+proprietary S5_no_verifier         10       0       0.9    1.000     1.000     1.000    0.853             1.0              0.0               0.0                0.0      0.424               0.0
+proprietary           S5v2         10       0       0.8    0.875     0.875     0.875    0.728             0.9              0.0               0.1                1.0      0.583               0.0
+wrote 30 claims to C:\Users\ranga\OneDrive\Desktop\Thesis\Code\results\judge_sample.csv
+
+=== data/make_synthetic.py
+
+=== data/download_corpus.py
+
+=== eval/check_questions.py
+
+=== eval/run_eval.py
+
+=== eval/run_eval.py --revised
+
+=== eval/run_eval.py --ablations
+
+=== eval/metrics.py
+
+=== eval/agreement.py export
+
+Done. Results are in results/. Label results/judge_sample.csv, then run: python eval/agreement.py score

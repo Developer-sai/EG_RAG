@@ -1,0 +1,29 @@
+﻿python.exe : 
+At line:1 char:563
++ ... run_log.txt; & $py eval\check_nli.py *> results\check_nli.txt } ; "DO ...
++                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 1887.29it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits 
+and faster downloads.
+
+Loading weights:   0%|          | 0/105 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 105/105 [00:00<00:00, 1309.70it/s]
+C:\Users\ranga\OneDrive\Desktop\Thesis\Code\.venv\Lib\site-packages\torch\jit\_script.py:1491: FutureWarning: 
+`torch.jit.script` is deprecated. Please switch to `torch.compile` or `torch.export`.
+  warnings.warn(
+
+Loading weights:   0%|          | 0/106 [00:00<?, ?it/s]
+Loading weights:  25%|██▍       | 26/106 [00:00<00:00, 250.57it/s]
+Loading weights:  49%|████▉     | 52/106 [00:00<00:00, 246.10it/s]
+Loading weights: 100%|██████████| 106/106 [00:00<00:00, 503.02it/s]
+model labels: {0: 'contradiction', 1: 'entailment', 2: 'neutral'}
+label -> column used: {'contradiction': 0, 'entailment': 1, 'neutral': 2}
+copied sentence (expect entail high)       entail=0.207 contradict=0.074 | raw=[-0.91  0.12  1.36] softmax=[0.074 0.207 0.718]
+identical short text (expect entail ~1)    entail=0.979 contradict=0.002 | raw=[-2.67  3.32 -0.66] softmax=[0.002 0.979 0.018]
+paraphrase (expect entail high)            entail=0.837 contradict=0.150 | raw=[ 0.09  1.81 -2.3 ] softmax=[0.15  0.837 0.014]
+wrong number (expect contradict high)      entail=0.001 contradict=0.997 | raw=[ 4.38 -2.7  -1.71] softmax=[0.997 0.001 0.002]
+unrelated (expect neutral high)            entail=0.000 contradict=0.989 | raw=[ 4.52 -4.51  0.01] softmax=[0.989 0.    0.011]

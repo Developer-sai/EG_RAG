@@ -1,0 +1,11 @@
+qid,type,verified,gold_quotes,found,pages,missing_docs
+D3-01,single,True,1,1,D3 p2,
+D3-05,single,True,1,1,D3 p8,
+D3-06,single,True,1,1,D3 p3,
+D3-09,single,True,1,1,D3 p6,
+SYN-03,single,True,1,1,SYN1_staff_handbook p1,
+SYN-08,single,True,1,1,SYN1_staff_handbook p3,
+SYN-09,single,True,1,1,SYN1_staff_handbook p2,
+SYN-10,conflict,True,2,2,SYN1_staff_handbook p2; SYN1_staff_handbook p3,
+SYN-25,unanswerable,True,0,0,,
+SYN-32,unanswerable,True,0,0,,
